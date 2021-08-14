@@ -789,18 +789,8 @@ blockquote .logo-quote {
 Showcase
 ========================================================================== */
 .showcase {
-    background: url('../img/showcase-back.jpg') no-repeat center center fixed;
-    background-color: rgba(0,0,0,0.25);
+    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
     background-size: cover;
-    
-}
-.showcase::before{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    
 }
 .showcase h1 {
     margin: 0 0 20px 0;

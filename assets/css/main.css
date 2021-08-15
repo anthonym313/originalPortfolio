@@ -1743,6 +1743,9 @@ input, select, textarea {
 		}
 
 /* Image */
+[class^=devicon-], [class*=" devicon-"]{
+    font-size: 60px;
+}
 
 	.image {
 		display: inline-block;

@@ -1818,13 +1818,31 @@ input, select, textarea {
 			width: 23.2%;
 			opacity: 0;
 			transition: .5s ease;
-			background-color: #726e31e8;
+			background-color: #726e31da;
 			
 		}
 		.project-overlay2 h6{
 			color:#fff;
 		}
 		article:hover .project-overlay2 {
+			opacity: 1;
+			color: #fff;
+			font-size: smaller;
+			
+		}
+		article>.project-overlay3 {
+			position: absolute;
+			height: 23%;
+			width: 23.2%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #ce6c2ada;
+			
+		}
+		.project-overlay3 h6{
+			color:#fff;
+		}
+		article:hover .project-overlay3 {
 			opacity: 1;
 			color: #fff;
 			font-size: smaller;

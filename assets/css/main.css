@@ -1790,10 +1790,47 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
+		}
+		article>.project-overlay1 {
+			position: absolute;
+			height: 23%;
+			width: 23.2%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #265241c5;
+			
+		}
+		.project-overlay1 h6{
+			color:#fff;
+		}
+		article:hover .project-overlay1 {
+			opacity: 1;
+			color: #fff;
+			font-size: smaller;
+			
+		}
+		article>.project-overlay2 {
+			position: absolute;
+			height: 23%;
+			width: 23.2%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #726e31e8;
+			
+		}
+		.project-overlay2 h6{
+			color:#fff;
+		}
+		article:hover .project-overlay2 {
+			opacity: 1;
+			color: #fff;
+			font-size: smaller;
+			
+		}
+
 
 /* List */
 
